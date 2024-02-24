@@ -8,7 +8,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM:
-# CLIENT:
+## CLIENT:
 ```
 import socket
 s=socket.socket()
@@ -29,7 +29,7 @@ while True:
  print(ack)
  i+=s
 ```
-# SERVER:
+## SERVER:
 ```
 import socket
 s=socket.socket()
@@ -39,9 +39,9 @@ while True:
  s.send("acknowledgement recived from the server".encode())
 ```
 ## OUPUT:
-# CLIENT:
+## CLIENT:
 ![image](https://github.com/Hemanath08/2b_SLIDING_WINDOW_PROTOCOL/assets/151807176/fbcea384-46d2-47dd-95e9-6b9209476249)
-# SERVER:
+## SERVER:
 ![image](https://github.com/Hemanath08/2b_SLIDING_WINDOW_PROTOCOL/assets/151807176/99eed7a6-34cf-4257-b012-8cee8638702e)
 
 
