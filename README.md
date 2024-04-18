@@ -1,4 +1,6 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
+Name:K.Hemanath
+Register No:212223100012
 ## AIM:
 ## ALGORITHM:
 1. Start the program.
